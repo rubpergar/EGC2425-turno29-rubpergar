@@ -115,3 +115,5 @@ def to_cnf(file_id):
     finally:
         # Clean up the temporary file
         os.remove(temp_file.name)
+
+# Test
