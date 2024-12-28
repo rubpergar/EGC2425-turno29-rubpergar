@@ -14,5 +14,3 @@ class UserProfile(db.Model):
         if not self.id:
             db.session.add(self)
         db.session.commit()
-
-# Cambio con conflicto de la rama rq1
