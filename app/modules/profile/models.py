@@ -15,4 +15,4 @@ class UserProfile(db.Model):
             db.session.add(self)
         db.session.commit()
 
-# Cambio con conflicto de la rama rq2
+# Cambio con conflicto de la rama rq1
