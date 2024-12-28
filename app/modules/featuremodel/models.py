@@ -40,3 +40,5 @@ class FMMetrics(db.Model):
 
     def __repr__(self):
         return f'FMMetrics<solver={self.solver}, not_solver={self.not_solver}>'
+
+# Cambio 1
